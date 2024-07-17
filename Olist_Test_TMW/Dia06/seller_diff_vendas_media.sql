@@ -48,7 +48,7 @@ tb_tempos_vendas_seller as (
 )
 
 select seller_id,
-       avg(diff_dias)
+       avg(diff_dias) as medias_vendas
 
 from tb_tempos_vendas_seller
 
